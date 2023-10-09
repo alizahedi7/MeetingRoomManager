@@ -4,8 +4,9 @@ from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('users.urls', namespace='users')),
-    path('profile/', include('profiles.urls', namespace='profiles')),
+    path('', include('users.urls')),
+    path('profile/', include('profiles.urls')),
+    path('reserve/', include('meetingrooms.urls')),
 ]
 
 urlpatterns += [
