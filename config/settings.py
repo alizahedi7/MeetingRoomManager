@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     #my apps
     'users',
     'profiles',
-    'widget_tweaks'
+    'widget_tweaks',
+    'meetingrooms',
 ]
 
 MIDDLEWARE = [
